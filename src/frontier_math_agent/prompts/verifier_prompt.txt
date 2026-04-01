@@ -1,0 +1,1 @@
+Check each algebraic/logical step, edge cases, and hidden assumptions.
