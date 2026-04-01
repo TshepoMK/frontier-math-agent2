@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "frontier-math-agent"
+version = "0.1.0"
+description = "Agentic assistant for frontier math research"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "sympy>=1.13",
+  "numpy>=2.0",
+  "scipy>=1.14"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

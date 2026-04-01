@@ -1,0 +1,6 @@
+name: Research Task
+description: Track a mathematical research task
+body:
+  - type: textarea
+    attributes:
+      label: Goal
